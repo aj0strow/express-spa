@@ -1,4 +1,4 @@
-# express-spa
+# express-spa ![](https://travis-ci.org/aj0strow/express-spa) ![](https://david-dm.org/aj0strow/express-spa.png)
 
 Static sites are great until you want html5 push state urls. Then they suck because every path besides the index breaks on external entry. 
 
@@ -21,5 +21,7 @@ spa(__dirname + '/main.html')   // project/server/main.html
 ```
 
 For max performance check out [Divshot](http://www.divshot.com/) to serve static sites off a CDN. 
+
+[![](https://nodei.co/npm/express-spa.png?downloads=true)](https://www.npmjs.org/package/express-spa)
 
 License: **MIT**

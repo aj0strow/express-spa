@@ -1,6 +1,6 @@
 {
   "name": "express-spa",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "license": "MIT",
   "author": "AJ Ostrow",
   "main": "index",
@@ -8,5 +8,8 @@
     "express": "^4.5.1",
     "supertest": "^0.13.0",
     "mocha": "^1.20.1"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha"
   }
 }
