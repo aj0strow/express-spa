@@ -1,4 +1,4 @@
-# express-spa ![](https://travis-ci.org/aj0strow/express-spa) ![](https://david-dm.org/aj0strow/express-spa.png)
+# express-spa ![](https://travis-ci.org/aj0strow/express-spa.png) ![](https://david-dm.org/aj0strow/express-spa.png)
 
 Static sites are great until you want html5 push state urls. Then they suck because every path besides the index breaks on external entry. 
 
