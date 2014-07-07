@@ -1,0 +1,12 @@
+{
+  "name": "express-spa",
+  "version": "0.0.0",
+  "license": "MIT",
+  "author": "AJ Ostrow",
+  "main": "index",
+  "devDependencies": {
+    "express": "^4.5.1",
+    "supertest": "^0.13.0",
+    "mocha": "^1.20.1"
+  }
+}
