@@ -36,7 +36,7 @@ Rest assured project folder does *not* mean `process.cwd()`. It means project fo
 
 ### Replacements
 
-You can also pass in an object of replacements. This is useful for injecting environment variables into the page, such as firebase urls, api versions, locale, etc. 
+You can also pass in an object of replacements. This way you don't need a view rendering engine to inject a couple variables. Rendering with jade can take up to 200ms instead of like 6ms. 
 
 ```html
 <body>
@@ -58,7 +58,11 @@ The streamed markup will have the replacement.
 </body>
 ```
 
-This way you don't need a view rendering engine like jade which can take up to 200ms instead of like 6ms. 
+You can specify both file path and replacements.
+
+```javascript
+spa('filename.html', { key: 'value' })
+```
 
 ### Notes
 
