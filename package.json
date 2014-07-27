@@ -1,6 +1,6 @@
 {
   "name": "express-spa",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "author": "AJ Ostrow",
   "repository": {
@@ -16,5 +16,8 @@
   },
   "scripts": {
     "test": "node_modules/.bin/mocha"
+  },
+  "dependencies": {
+    "replacestream": "^0.1.3"
   }
 }

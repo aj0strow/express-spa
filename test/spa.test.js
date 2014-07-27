@@ -1,7 +1,12 @@
 describe('lib/spa', function () {
   describe('html requests', function () {
-    it('should render index', function (cb) {
-      app.get('/').expect(200, cb)
+    it('should replace values', function (cb) {
+      app.get('/')
+        .expect(function (res) {
+          var html = res.text.trim().split('\n').pop().trim()
+          assert.equal('<html>test</html>', html)
+        })
+        .expect(200, cb)
     })
 
     it('should render all routes', function (cb) {
